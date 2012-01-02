@@ -1,0 +1,6 @@
+.b-rating__mark
+{
+    display: inline-block;
+
+    cursor: pointer;
+}

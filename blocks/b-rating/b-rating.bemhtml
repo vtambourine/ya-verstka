@@ -1,0 +1,33 @@
+block b-rating {
+
+    tag: 'span'
+
+    !this.mods.style, mods: {
+        style: 'stars'
+    }
+
+    content: {
+
+        var marks = [],
+            length = parseInt(this.ctx.mods.length),
+            value = parseFloat(this.ctx.value);
+
+        for (var i = 0; i < length; i++) {
+            marks.push({
+                elem: 'mark',
+                elemMods: {
+                    fill: (i >= value)
+                              ? 'no'
+                              : (i < Math.floor(value))
+                                  ? 'full'
+                                  : Math.round(1 / (value - Math.floor(value)))
+                }
+            })
+        }
+
+        return marks;
+
+    }
+
+
+}

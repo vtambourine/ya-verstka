@@ -2,7 +2,7 @@
     block: 'b-page',
     title: 'Верстка. Домашние задания',
     head: [
-        { elem: 'css', url: 'index.css'}
+        { elem: 'css', url: 'index.css' }
     ],
     content: {
         block: 'b-menu-vert',
