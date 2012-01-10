@@ -44,7 +44,6 @@
                 {
                     block: 'b-rating',
                     mods: {
-                        style: 'stars',
                         length: 30
                     },
                     value: 78

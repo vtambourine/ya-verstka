@@ -2,9 +2,9 @@ block b-rating {
 
     tag: 'span'
 
-    !this.mods.style, mods: {
-        style: 'stars'
-    }
+    !this.mods.style, mix: [{
+        mods: { style: 'stars' }
+    }]
 
     content: {
 
@@ -28,6 +28,5 @@ block b-rating {
         return marks;
 
     }
-
 
 }
