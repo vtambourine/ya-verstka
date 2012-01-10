@@ -45,11 +45,11 @@
                     block: 'b-rating',
                     mods: {
                         style: 'stars',
-                        length: 146
+                        length: 30
                     },
                     value: 78
                 },
-                '78 / 146'
+                '28 / 30'
             ]
         },
         {
