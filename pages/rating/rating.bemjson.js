@@ -9,108 +9,79 @@
     content: [
         {
             block: 'b-text',
+            elem: 'h3',
+            content: 'Рейтинг в строке'
+        },
+        {
+            block: 'b-text',
             content: [
-               'Семьдесят пять тридцатых',
+               'Двенадцать на три — ',
                 {
                     block: 'b-rating',
                     mods: {
-                        style: 'stars',
+                        length: 6
+                    },
+                    value: 4
+                },
+                ' — это четыре'
+            ]
+        },
+        {
+            block: 'b-text',
+            elem: 'h3',
+            content: 'Дробный рейтинг'
+        },
+        {
+            block: 'b-text',
+            content: [
+               'Семьдесят пять тридцатых равно двум пятым ',
+                {
+                    block: 'b-rating',
+                    mods: {
                         length: 5
                     },
                     value: 2.5
-                },
-                '2,5'
+                }
             ]
         },
         {
             block: 'b-text',
-            content: [
-               'Семьдесят пять тридцатых',
-                {
-                    block: 'b-rating',
-                    mods: {
-                        style: 'stars',
-                        length: 5
-                    },
-                    value: 2.2
-                },
-                '2,2'
-            ]
-        },,
-        {
-            block: 'b-text',
-            content: [
-               'Семьдесят пять тридцатых',
-                {
-                    block: 'b-rating',
-                    mods: {
-                        style: 'stars',
-                        length: 5
-                    },
-                    value: 2.9
-                },
-                '2,9'
-            ]
+            elem: 'h3',
+            content: 'Пользовательский стиль'
         },
         {
             block: 'b-text',
             content: [
-               'Фильм «Хороший, плохой, злой»',
+               'Заряд вашей батареи подходит к концу ',
                 {
                     block: 'b-rating',
                     mods: {
                         style: 'bars',
                         length: 10
                     },
-                    value: 8.25
+                    value: 1.7
                 },
-                '8,25 / 10'
+                '17%'
             ]
         },
         {
             block: 'b-text',
+            elem: 'h3',
+            content: 'Блочный рейтинг'
+        },
+        {
+            block: 'b-fake',
             content: [
-               'Фильм «Хороший, плохой, злой»',
+                { elem: 'logo' },
                 {
                     block: 'b-rating',
                     mods: {
                         style: 'bars',
-                        length: 10
+                        length: 8
                     },
-                    value: 8.57
+                    value: 4.3
                 },
-                '8,57 / 10'
-            ]
-        },
-        {
-            block: 'b-text',
-            content: [
-               'Фильм «Хороший, плохой, злой»',
-                {
-                    block: 'b-rating',
-                    mods: {
-                        style: 'bars',
-                        length: 10
-                    },
-                    value: 8.79
-                },
-                '8,79 / 10'
-            ]
-        },
-        {
-            block: 'b-text',
-            content: [
-               'Hello, stars! ',
-               'One, two, ',
-                {
-                    block: 'b-rating',
-                    mods: {
-                        style: 'stars',
-                        length: 3
-                    },
-                    value: 3
-                },
-                ', four, five'
+                '4.3'
             ]
         }
 

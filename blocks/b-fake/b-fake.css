@@ -1,0 +1,21 @@
+.b-fake
+{
+    min-height: 100px;
+}
+
+.b-fake .b-rating
+{
+    display: block;
+}
+
+.b-fake__logo
+{
+    display: block;
+    float: left;
+
+    width: 100px;
+    height: 100px;
+    margin-right: 4px;
+
+    background-color: #999;
+}
