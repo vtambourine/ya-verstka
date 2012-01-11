@@ -1,3 +1,6 @@
 ({
-    mustDeps: { elem: 'mark' }
+    mustDeps: [
+        { mods: {style: 'stars'} },
+        { elem: 'mark' }
+    ]
 })
