@@ -34,7 +34,7 @@
         {
             block: 'b-text',
             content: [
-               'Семьдесят пять тридцатых равно двум пятым ',
+               'Семьдесят пять тридцатых равно двум с половиной ',
                 {
                     block: 'b-rating',
                     mods: {
@@ -82,6 +82,43 @@
                     value: 4.3
                 },
                 '4.3'
+            ]
+        },
+        {
+            block: 'b-text',
+            elem: 'h3',
+            content: 'Скрипты'
+        },
+        {
+            block: 'b-text',
+            content: [
+               'Пока вы читали, рейтинг накрутился ',
+                {
+                    block: 'b-rating',
+                    mods: {
+                        length: 5
+                    },
+                    value: 1,
+                    js: {
+                        url: '/blocks/b-rating/example/value'
+                    }
+                }
+            ]
+        },
+        {
+            block: 'b-text',
+            content: [
+               'Пока вы читали, рейтинг накрутился ',
+                {
+                    block: 'b-rating',
+                    mods: {
+                        length: 5
+                    },
+                    value: 1,
+                    js: {
+                        url1: '/blocks/b-rating/example/value'
+                    }
+                }
             ]
         }
 

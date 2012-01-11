@@ -2,8 +2,15 @@ block b-rating {
 
     tag: 'span'
 
-    !this.mods.style, mix: [{
-        mods: { style: 'stars' }
+    !this.mods.style, !this.elem, mix: [{
+        mods: {
+            style: 'stars',
+            frac: 2
+        }
+    }]
+
+    this.ctx._frac, !this.elem, mix: [{
+        mods: { frac: this.ctx._frac }
     }]
 
     content: {
