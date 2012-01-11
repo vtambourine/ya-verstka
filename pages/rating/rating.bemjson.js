@@ -29,26 +29,12 @@
                 {
                     block: 'b-rating',
                     mods: {
-                        style: 'stars',
+                        style: 'bars',
                         length: 10
                     },
                     value: 8.9
                 },
                 '8,9 / 10'
-            ]
-        },
-        {
-            block: 'b-text',
-            content: [
-               'Видео Мишанги на кипрской катапульте',
-                {
-                    block: 'b-rating',
-                    mods: {
-                        length: 30
-                    },
-                    value: 78
-                },
-                '28 / 30'
             ]
         },
         {

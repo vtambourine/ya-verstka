@@ -1,0 +1,26 @@
+.b-rating_style_bars .b-rating__mark
+{
+    width: 8px;
+    height: 18px;
+    margin: 0 1px;
+
+    background-image: url(b-rating_style_bars.png);
+    background-position: -36px 0;
+    background-repeat: no-repeat;
+}
+
+.b-rating_style_bars .b-rating__mark:hover
+{
+    cursor: default;
+}
+
+.b-rating_style_bars .b-rating__mark_fill_full,
+.b-rating_style_bars .b-rating__mark_fill_1
+{
+    background-position: 0 0;
+}
+
+.b-rating_style_bars .b-rating__mark_fill_2
+{
+    background-position: -18px 0;
+}
