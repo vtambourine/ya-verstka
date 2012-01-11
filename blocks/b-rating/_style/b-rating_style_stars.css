@@ -14,12 +14,12 @@
 }
 
 .b-rating_style_stars .b-rating__mark_fill_full,
-.b-rating_style_stars .b-rating__mark_fill_1
+.b-rating_style_stars .b-rating__mark_fill_2
 {
     background-position: 0 0;
 }
 
-.b-rating_style_stars .b-rating__mark_fill_2
+.b-rating_style_stars .b-rating__mark_fill_1
 {
     background-position: -18px 0;
 }

@@ -1,0 +1,9 @@
+block b-rating, (this.mods.style == 'bars'), !this.ctx._frac {
+
+    default: {
+        local(
+            this.ctx._frac = 4
+        ) this.apply();
+    }
+
+}

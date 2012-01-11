@@ -19,7 +19,37 @@
                     },
                     value: 2.5
                 },
-                'два с половиной'
+                '2,5'
+            ]
+        },
+        {
+            block: 'b-text',
+            content: [
+               'Семьдесят пять тридцатых',
+                {
+                    block: 'b-rating',
+                    mods: {
+                        style: 'stars',
+                        length: 5
+                    },
+                    value: 2.2
+                },
+                '2,2'
+            ]
+        },,
+        {
+            block: 'b-text',
+            content: [
+               'Семьдесят пять тридцатых',
+                {
+                    block: 'b-rating',
+                    mods: {
+                        style: 'stars',
+                        length: 5
+                    },
+                    value: 2.9
+                },
+                '2,9'
             ]
         },
         {
@@ -32,9 +62,39 @@
                         style: 'bars',
                         length: 10
                     },
-                    value: 8.9
+                    value: 8.25
                 },
-                '8,9 / 10'
+                '8,25 / 10'
+            ]
+        },
+        {
+            block: 'b-text',
+            content: [
+               'Фильм «Хороший, плохой, злой»',
+                {
+                    block: 'b-rating',
+                    mods: {
+                        style: 'bars',
+                        length: 10
+                    },
+                    value: 8.57
+                },
+                '8,57 / 10'
+            ]
+        },
+        {
+            block: 'b-text',
+            content: [
+               'Фильм «Хороший, плохой, злой»',
+                {
+                    block: 'b-rating',
+                    mods: {
+                        style: 'bars',
+                        length: 10
+                    },
+                    value: 8.79
+                },
+                '8,79 / 10'
             ]
         },
         {

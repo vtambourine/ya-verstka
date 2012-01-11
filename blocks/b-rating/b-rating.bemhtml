@@ -10,7 +10,8 @@ block b-rating {
 
         var marks = [],
             length = parseInt(this.ctx.mods.length),
-            value = parseFloat(this.ctx.value);
+            value = parseFloat(this.ctx.value),
+            frac = this.ctx._frac || 1;
 
         for (var i = 0; i < length; i++) {
             marks.push({
@@ -20,7 +21,7 @@ block b-rating {
                               ? 'no'
                               : (i < Math.floor(value))
                                   ? 'full'
-                                  : Math.round(1 / (value - Math.floor(value)))
+                                  : Math.round((value - Math.floor(value)) * frac)
                 }
             })
         }
