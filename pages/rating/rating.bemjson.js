@@ -104,23 +104,6 @@
                     }
                 }
             ]
-        },
-        {
-            block: 'b-text',
-            content: [
-               'Пока вы читали, рейтинг накрутился ',
-                {
-                    block: 'b-rating',
-                    mods: {
-                        length: 5
-                    },
-                    value: 1,
-                    js: {
-                        url1: '/blocks/b-rating/example/value'
-                    }
-                }
-            ]
         }
-
     ]
 })

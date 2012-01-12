@@ -6,8 +6,10 @@ BEM.DOM.decl('b-rating', {
         var that = this;
 
         $.get(this.params.url, function(data) {
-            (typeof data.value == 'number') && that.setValue(data.value)
-
+            if (typeof data.value == 'number') {
+                that.setValue(data.value);
+                alert('Суммраный рейтинг: ' + data.value);
+            }
         }, 'json')
     },
 
