@@ -100,7 +100,7 @@
                     },
                     value: 1,
                     js: {
-                        url: '/blocks/b-rating/example/value'
+                        url: '../../blocks/b-rating/example/value'
                     }
                 }
             ]
